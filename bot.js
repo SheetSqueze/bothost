@@ -1,6 +1,6 @@
-const Discord = require("discord.js")
-const fs = require("fs")
-const client = new Discord.Client()
+const Discord = require("discord.js");
+const fs = require("fs");
+const client = new Discord.Client();
 
 client.on('ready', () => {
    client.user.setPresence({
