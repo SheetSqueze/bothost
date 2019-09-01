@@ -5,10 +5,10 @@ const client = new Discord.Client()
 client.on('ready', () => {
    client.user.setPresence({
         game: {
-            name: "cheap origin with games accounts",
+            name: config.status,
             type: "STREAMING"
         }
    })
 });
 
-client.login(process.env.BOT_TOKEN);
+client.login(config.token);
