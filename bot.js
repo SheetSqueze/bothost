@@ -6,7 +6,7 @@ client.on('ready', () => {
    client.user.setPresence({
         game: {
             name: "cheap origin with games accounts",
-            type: "Streaming"
+            type: "STREAMING"
         }
    })
 });
